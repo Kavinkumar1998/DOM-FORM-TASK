@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin : 0;
+    position: relative;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.5em;
+    color:blueviolet;
+}
+.mainform{
+    border: 1px solid blueviolet
+}
+th{
+    border:1px solid black;
+}
+tbody td{
+    border:  1px solid rgb(34, 14, 218); 
+    font-style: italic;
+    font-weight: bold;
+    text-align: center
+}
+.firstname{
+    padding: 10px;
+}
+.lastname{
+    padding: 10px;
+}
+.address{
+    padding: 10px;
+}
+.pincode{
+    padding: 10px;
+}
+.foods{
+    padding: 10px;
+}
+.state{
+    padding: 10px;
+}
+.country{
+    padding: 10px;
+}
+
+input{
+    margin-top: 5px;
+    }
+    select{
+    margin-top: 3px;
+    }
+    table{
+    margin-left: 600px;
+    }
+    .btn{
+        margin: 10px 0px 0px 70px;
+        font-weight: bold;
+        border-radius: 5px;
+        border:  rgb(32, 21, 189) solid;
+        padding-left: 10px;
+        padding-right:10px ;
+    }
+    
+    @media screen and (max-width: 700px){
+        table{
+            margin-left: 0px;
+    
+    }
+    .details{
+        margin-left: 100px;
+        
+       
+       }
+       .mainform{
+        border: 1px solid black; 
+        width: auto;
+        
+        
+        }
+    }
+    

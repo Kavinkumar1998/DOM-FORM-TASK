@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainform">
+        <h2>SURVEY FORM</h2>
+        <form class="details">
+            <div class="firstname">
+                <label>First name :</label><input type="text" placeholder="Enter your firstname" required/>
+            </div>
+            <div class="lastname">
+                <label>Last name :</label><input type="text" placeholder="Enter your lastname" required/>
+            </div>
+            <div class="address">
+                <label>address :</label><input type="text" placeholder="Enter your address" required/>
+            </div>
+            <div class="pincode">
+                <label>pincode :</label><input type="text" placeholder="Enter your area pincode" required/>
+            </div>
+                <label>gender :</label> <select class="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select><br>
+                <label>Choice of food :</label><select type="food" class="foods">
+                    <option>chicken rice</option>
+                    <option>chicken manchurian</option>
+                    <option>chicken burger</option>
+                    <option>chicken biriyani</option>
+                    <option>chicken shawarma</option>
+                    <option>chicken roll</option>
+                    <option></option>
+                </select><br>
+                <label>state :</label><select class="state">
+                    <option>Tamilnadu</option>
+                    <option>Andhra pradesh</option>
+                    <option>kerala</option>
+                    <option>karnataka</option>
+                    <option>Telungana</option>
+                    <option>Hariyana</option>
+                    <option></option>
+                </select><br>
+                <label>Country :</label><select class="Country">
+                    <option>IRAN</option>
+                    <option>United States of America</option>
+                    <option>India</option>
+                    <option>Russia</option>
+                    <option>United Arab Emirites</option>
+                    <option>United Kingdom</option>
+                    <option></option>
+                </select><br>
+                <button class="btn" type="submit">SUBMIT</button>
+        </form>
+    </div>
+    <br>
+    <hr>
+    <div class="table">
+        <table class="fulldetail">
+            <thead>
+            <tr>
+            <th class="heads">First name</th>
+            <th class="heads">Last name</th>
+            <th class="heads">Address</th>
+            <th class="heads">pincode</th>
+            <th class="heads">Gender</th>
+            <th class="heads">Choice of Food</th>
+            <th class="heads">State</th>
+            <th class="heads">Country</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
